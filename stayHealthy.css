@@ -1,0 +1,101 @@
+header {
+	height:16px;
+	text-align: center;
+	color: #fff;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 50px;
+	margin: 50px;
+	padding-bottom: 20px;
+}
+body {
+	background:	#DC143C;
+	border:0;
+	font:12px Arial, Helvetica, sans-serif;
+	color:#72716f;
+	line-height:20px;
+	min-width:980px;
+}
+#menu {
+	background:#fff;
+	padding:10px 2px;
+	height:39px;
+	margin-bottom:10px;
+}
+#menu > li {
+	border-right:1px solid #f2f2f2;
+	float:left;
+	list-style-type: none;
+}
+#menu > li > a {
+	display:block;
+	padding:0 45px;
+	font-size:16px;
+	color:#12110f;
+	text-decoration:none;
+	line-height:39px;
+}
+.main {
+	margin:0 auto;
+	width:1060px;
+	padding:0 6px;
+}
+.div a:hover{
+	background-color: #29B468;
+}
+.active {
+    background-color: #29B468;
+}
+.box {
+	background:#fff;
+	position:relative;
+}
+.box img {
+	max-width:95%;
+	max-height:95%;
+	padding: 25px;
+}
+.image {
+	position:relative;
+	margin:0;
+	padding:0;
+	height: 800px;
+	width: 1060px;
+}
+.image p{
+	padding-left: 26px;
+}
+.footer{
+	padding-left: 39px;
+	color: #FFFFFF;
+}
+footer {
+	padding-top: 47px;
+	height:200px;
+}
+#footer_menu {
+	padding-top:4px;
+	float: left;
+}
+#footer_menu li {
+	padding-right: 26px;
+	list-style-type:none;
+	display: inline;
+}
+#icons {
+	padding-top:5px;
+	float: left;
+}
+#icons li {
+	float:left;
+	display: inline;
+	list-style-type: none;
+	margin: 5px;
+}
+.subpage{
+	color: red;
+  text-shadow: 1px 1px 1px black;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,0.1));
+  padding: 3px;
+  text-align: center;
+  box-shadow: inset 2px 2px 5px rgba(0,0,0,0.5), inset -2px -2px 5px rgba(255,255,255,0.5);
+}
