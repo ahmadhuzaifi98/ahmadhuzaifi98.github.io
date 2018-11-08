@@ -95,3 +95,16 @@ footer {
 	list-style-type: none;
 	margin: 5px;
 }
+#slideshow {
+	max-width:95%;
+	max-height:95%;
+	padding: 25px;
+}
+#slideshow > div {
+  position: absolute;
+}
+.a{
+	position: relative;
+	margin-top: 550px;
+	margin-left: 25px;
+}
