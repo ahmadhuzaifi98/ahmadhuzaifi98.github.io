@@ -103,8 +103,13 @@ footer {
 #slideshow > div {
   position: absolute;
 }
-.a, p{
+.a{
 	position: relative;
 	margin-top: 550px;
 	margin-left: 25px;
+}
+p{
+	position: relative;
+	margin-top: 550px;
+	margin-left: 50px;
 }
