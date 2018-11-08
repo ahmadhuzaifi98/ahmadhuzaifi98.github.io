@@ -5,7 +5,20 @@
     <title></title>
     <link rel="stylesheet" href="home.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   </head>
+    <script>
+  $("#slideshow > div:gt(0)").hide();
+
+  setInterval(function() {
+    $('#slideshow > div:first')
+      .fadeOut(1000)
+      .next()
+      .fadeIn(1000)
+      .end()
+      .appendTo('#slideshow');
+  }, 3000);
+  </script>
   <header>
     <h1>Medical</h1>
   </header>
@@ -27,7 +40,17 @@
         </div>
           <div class="box">
             <ul class="image">
-              <img src="image12.jpg" alt="">
+              <div id="slideshow">
+                 <div>
+                   <img src="image12.jpg">
+                 </div>
+                 <div>
+                   <img src="image2.jpeg">
+                 </div>
+                 <div>
+                   <img src="image3.jpeg">
+                 </div>
+              </div>
               <h1>For a Healthier Future</h1>
               <p>blablablabla</p>
             </ul>
