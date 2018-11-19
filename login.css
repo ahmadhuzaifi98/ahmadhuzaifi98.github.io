@@ -50,12 +50,12 @@ body {
 	position:relative;
 	margin:0;
 	padding-top: 60px;;
-	height: 380px;
+	height: 400px;
 	width: 1060px;
 }
 .image {
 	position:relative;
-	height: 300px;
+	height: 350px;
 	width: 400px;
 	margin: 0 310px;
 	border-style: solid;
@@ -114,7 +114,7 @@ label{
 	color: #1A92BA;
 }
 button{
-	margin-top: 20px;
+	margin-top: 5px;
 	width: 90%;
 	height: 15%;
 }
